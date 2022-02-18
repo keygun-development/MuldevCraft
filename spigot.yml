@@ -60,13 +60,13 @@ world-settings:
     below-zero-generation-in-existing-chunks: true
     verbose: false
     wither-spawn-sound-radius: 0
-    view-distance: default
+    view-distance: 4
     simulation-distance: default
     thunder-chance: 100000
     enable-zombie-pigmen-portal-spawns: true
     merge-radius:
-      item: 2.5
-      exp: 3.0
+      item: 3.5
+      exp: 6.0
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
@@ -75,7 +75,7 @@ world-settings:
     nerf-spawner-mobs: false
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
-    mob-spawn-range: 8
+    mob-spawn-range: 3
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -98,10 +98,10 @@ world-settings:
       cavevines-modifier: 100
       glowberry-modifier: 100
     entity-activation-range:
-      animals: 32
-      monsters: 32
+      animals: 6
+      monsters: 16
       raiders: 48
-      misc: 16
+      misc: 2
       water: 16
       villagers: 32
       flying-monsters: 32
@@ -130,9 +130,9 @@ world-settings:
       misc: 32
       other: 64
     ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
+      hopper-transfer: 24
+      hopper-check: 24
+    hopper-amount: 3
     seed-village: 10387312
     seed-desert: 14357617
     seed-igloo: 14357618

@@ -115,8 +115,9 @@ world-settings:
       disable-relative-projectile-velocity: false
       disable-unloaded-chunk-enderpearl-exploit: true
       disable-player-crits: false
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
       nerf-pigmen-from-nether-portals: false
+      use-hopper-check: true
       disable-sprint-interruption-on-attack: false
       shield-blocking-delay: 5
       disable-end-credits: false
@@ -186,13 +187,13 @@ world-settings:
     water-over-lava-flow-speed: 5
     non-player-arrow-despawn-rate: -1
     creative-arrow-despawn-rate: -1
-    container-update-tick-rate: 1
+    container-update-tick-rate: 3
     only-players-collide: false
     allow-vehicle-collisions: true
     portal-search-radius: 128
     portal-create-radius: 16
     portal-search-vanilla-dimension-scaling: true
-    grass-spread-tick-rate: 1
+    grass-spread-tick-rate: 3
     count-all-mobs-for-spawning: false
     baby-zombie-movement-modifier: 0.5
     wandering-trader:
@@ -242,7 +243,7 @@ world-settings:
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     map-item-frame-cursor-limit: 128
-    mob-spawner-tick-rate: 1
+    mob-spawner-tick-rate: 2
     spawner-nerfed-mobs-should-jump: false
     entities-target-with-follow-range: false
     wateranimal-spawn-height:
@@ -258,7 +259,7 @@ world-settings:
     generator-settings:
       flat-bedrock: false
     piglins-guard-chests: true
-    optimize-explosions: false
+    optimize-explosions: true
     experience-merge-max-value: -1
     should-remove-dragon: false
     fishing-time-range:
