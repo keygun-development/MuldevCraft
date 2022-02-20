@@ -5,3 +5,4 @@ logs
 cache
 usercache.json
 .console_history
+runserver.bat
