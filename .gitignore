@@ -6,3 +6,12 @@ cache
 usercache.json
 .console_history
 runserver.bat
+plugins/bStats
+plugins/Essentials
+plugins/KeepChunks
+plugins/LuckPerms
+plugins/PluginMetrics
+plugins/ProtocolLib
+plugins/ServerListPlus
+plugins/StackMob
+plugins/Vault
