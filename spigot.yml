@@ -60,7 +60,7 @@ world-settings:
     below-zero-generation-in-existing-chunks: true
     verbose: false
     wither-spawn-sound-radius: 0
-    view-distance: 10
+    view-distance: 16
     simulation-distance: default
     thunder-chance: 100000
     enable-zombie-pigmen-portal-spawns: true
