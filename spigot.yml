@@ -155,10 +155,10 @@ world-settings:
       entity: 50
     max-tnt-per-tick: 100
     hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
+      jump-walk-exhaustion: 0.2
+      jump-sprint-exhaustion: 0.8
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
       swim-multiplier: 0.01
       sprint-multiplier: 0.1
       other-multiplier: 0.0
