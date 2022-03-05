@@ -84,10 +84,11 @@ settings:
   async-chunks:
     threads: -1
   unsupported-settings:
-    allow-headless-pistons: false
+    allow-headless-pistons: true
     perform-username-validation: true
-    allow-piston-duplication: false
-    allow-permanent-block-break-exploits: false
+    allow-piston-duplication: true
+    allow-permanent-block-break-exploits: true
+    allow-tnt-duplication: true
     allow-headless-pistons-readme: This setting controls if players should be able
       to create headless pistons.
     allow-piston-duplication-readme: This setting controls if player should be able
@@ -253,6 +254,7 @@ world-settings:
     zombie-villager-infection-chance: -1.0
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
+      allow-tnt-duplication: true
     all-chunks-are-slime-chunks: false
     split-overstacked-loot: true
     per-player-mob-spawns: true
